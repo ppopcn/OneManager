@@ -1865,7 +1865,7 @@ output:
     </select>
     <input type="submit" name="updateProgram" value="' . getconstStr('updateProgram') . '">
 </form>
-<br>
+
 <form name="updateform" action="" method="post">
     <input name="_admin" type="hidden" value="">
     Update from
