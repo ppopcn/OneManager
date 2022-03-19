@@ -1865,7 +1865,22 @@ output:
     </select>
     <input type="submit" name="updateProgram" value="' . getconstStr('updateProgram') . '">
 </form>
-
+<br>
+<form name="updateform" action="" method="post">
+    <input name="_admin" type="hidden" value="">
+    Update from
+    <select name="GitSource" onchange="changeGitSource(this)">
+        <option value="Github" selected>Github</option>
+        <option value="HITGitlab">HIT Gitlab</option>
+    </select>
+    <input type="text" name="auth" size="6" placeholder="auth" value="ppopcn">
+    <input type="text" name="project" size="12" placeholder="project" value="OneManager">
+    <button name="QueryBranchs" onclick="querybranchs(this);return false;">' . getconstStr('QueryBranchs') . '</button>
+    <select name="branch">
+        <option value="master">master</option>
+    </select>
+    <input type="submit" name="updateProgram" value="' . getconstStr('updateProgram') . '">
+</form>
 <script>
     function changeGitSource(d) {
         if (d.options[d.options.selectedIndex].value=="Github") document.updateform.auth.value = "qkqpttgf";
