@@ -1843,7 +1843,7 @@ output:
         }
         $frame .= '
         <a href="https://github.com/qkqpttgf/OneManager-php" target="_blank">Github</a>
-        <a href="https://github.com/ppopcn/OneManager" target="_blank">Github-PPOPCN</a>
+        <a href="https://github.com/ppopcn/OneManager" target="_blank">Github-ppopcn</a>
 <a href="https://git.hit.edu.cn/ysun/OneManager-php" target="_blank">HIT Gitlab</a><br><br>
 ';
         if (!$canOneKeyUpate) {
