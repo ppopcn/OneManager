@@ -252,7 +252,7 @@
     <header>
         <nav class="container">
             <div class="title pull-left">
-                <a href="<!--base_path-->"><!--Sitename--></a>
+                <a href="<!--base_path-->"><!--Sitename--></a><a href="./?login=admin"><span>T</span></a>
             </div>
             <div class="pull-right"><!--
 <!--LoginStart-->
@@ -263,12 +263,13 @@
 <!--AdminEnd-->
                 &nbsp;| -->
                 <div class="pull-right lang">
-                    <select name="language" id="language" class="language" onchange="changelanguage(this.options[this.options.selectedIndex].value)">
+                <!--    <select name="language" id="language" class="language" onchange="changelanguage(this.options[this.options.selectedIndex].value)">
                         <option value="">Language</option>
 <!--SelectLanguageStart-->
                         <option value="<!--SelectLanguageKey-->" <!--SelectLanguageSelected-->><!--SelectLanguageValue--></option>
 <!--SelectLanguageEnd-->
-                    </select>
+                    </select> -->
+		    
                 </div>
             </div>
         </nav>
@@ -365,7 +366,9 @@
                             <i class="iconfont">&#xe746;</i>
                         </div>
                         <div class="main-items-fileName">
-                            <a href="<!--FileEncodeReplaceUrl-->?preview" target="_blank"><!--FileEncodeReplaceName--></a>
+                          
+			  <a href="<!--FileEncodeReplaceUrl-->" target="_blank"><!--FileEncodeReplaceName--></a>
+			 
                         </div>
                         <div class="main-items-dateTime" ><!--lastModifiedDateTime--></div>
                         <div class="main-items-fileSize" ><!--size--></div>
