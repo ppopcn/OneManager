@@ -1842,7 +1842,7 @@ output:
             }
         }
         $frame .= '
-        <a href="https://github.com/qkqpttgf/OneManager-php" target="_blank">Github</a>
+        <a href="https://github.com/qkqpttgf/OneManager-php" target="_blank">Github</a><a href="https://github.com/ppopcn/OneManager" target="_blank">Github-PPOPCN</a>
 <a href="https://git.hit.edu.cn/ysun/OneManager-php" target="_blank">HIT Gitlab</a><br><br>
 ';
         if (!$canOneKeyUpate) {
@@ -1871,7 +1871,7 @@ output:
     Update from
     <select name="GitSource" onchange="changeGitSource(this)">
         <option value="Github" selected>Github</option>
-        <option value="HITGitlab">HIT Gitlab</option>
+        
     </select>
     <input type="text" name="auth" size="6" placeholder="auth" value="ppopcn">
     <input type="text" name="project" size="12" placeholder="project" value="OneManager">
